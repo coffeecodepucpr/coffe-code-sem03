@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard, Buscador de Grupos de Estudo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="dashboard.html" class="navbar__logo">Buscador de Grupos</a>
+    <nav>
+      <ul class="navbar__links">
+        <li><a href="dashboard.html" aria-current="page">Grupos</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="perfil.html" class="avatar" aria-label="Ir para o perfil">AM</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="pagina-header">
+      <h1>Seus grupos de estudo</h1>
+      <p>Encontre colegas estudando a mesma matéria que você.</p>
+    </div>
+
+    <label for="busca" class="sr-only">Buscar por matéria</label>
+    <input type="search" id="busca" class="busca" placeholder="Buscar por matéria...">
+
+    <section class="dashboard-grid" aria-label="Grupos disponíveis" id="dashboard-grid">
+      <!-- preenchido dinamicamente por script.js, ver Módulo 12 -->
+    </section>
+  </main>
+</body>
+</html>

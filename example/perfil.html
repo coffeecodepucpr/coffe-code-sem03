@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil, Buscador de Grupos de Estudo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="dashboard.html" class="navbar__logo">Buscador de Grupos</a>
+    <nav>
+      <ul class="navbar__links">
+        <li><a href="dashboard.html">Grupos</a></li>
+        <li><a href="perfil.html" aria-current="page">Perfil</a></li>
+        <li><a href="perfil.html" class="avatar" aria-label="Ir para o perfil" id="avatar-nav">AM</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="perfil-topo">
+      <div class="avatar avatar--lg" id="avatar-perfil" aria-hidden="true">AM</div>
+      <div class="perfil-info">
+        <h2 id="perfil-nome">Carregando...</h2>
+        <p id="perfil-email"></p>
+        <div class="tags" id="perfil-tags"></div>
+        <div class="perfil-acoes">
+          <button class="botao botao-primario" type="button">Editar perfil</button>
+          <button class="botao botao-secundario" type="button">Sair</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagina-header">
+      <h1>Meus grupos</h1>
+      <p id="perfil-contagem">Você está em 0 grupos de estudo.</p>
+    </div>
+
+    <section class="dashboard-grid" aria-label="Grupos dos quais você participa" id="perfil-grid">
+      <!-- preenchido dinamicamente por script.js, ver Módulos 12-14 -->
+    </section>
+  </main>
+</body>
+</html>
