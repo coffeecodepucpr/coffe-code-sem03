@@ -70,4 +70,4 @@ Desafios opcionais, organizados pelos módulos da semana. Nenhum é obrigatório
 
 ## // Desafio geral (todos)
 
-Peça para alguém de fora do seu grupo (ou você mesmo, revisando depois de um intervalo) usar suas três telas sem nenhuma explicação sua: tentar um login errado e um certo, buscar um grupo no Dashboard, sair de um grupo no Perfil. Essa pessoa entende o que está acontecendo em cada ação, mesmo sem saber que os dados são mock? Se a resposta for sim, seu entregável está em um bom nível. Se não, volte ao módulo correspondente.
+Peça para outra pessoa (ou você mesmo, revisando depois de um intervalo) usar suas três telas sem nenhuma explicação sua: tentar um login errado e um certo, buscar um grupo no Dashboard, sair de um grupo no Perfil. Essa pessoa entende o que está acontecendo em cada ação, mesmo sem saber que os dados são mock? Se a resposta for sim, seu entregável está em um bom nível. Se não, volte ao módulo correspondente.

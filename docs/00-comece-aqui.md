@@ -13,7 +13,7 @@ Isso não é falha do que você construiu, e é exatamente onde a Semana 02 diss
 ## // O que muda a partir de agora
 
 <div align="center">
-<img src="./assets/svg/mock-data-to-render.svg" alt="Array de objetos, com .map(), virando elementos renderizados na tela" width="480">
+<img src="./assets/mock-data-to-render.svg" alt="Array de objetos, com .map(), virando elementos renderizados na tela" width="480">
 </div>
 
 Até a Semana 02, o HTML do Dashboard tinha os cards escritos à mão, um por um, direto no arquivo. A partir desta semana, os cards vão nascer de uma lista de dados, um array, e a tela vai se atualizar sozinha quando essa lista mudar. É a diferença entre uma vitrine fixa e uma vitrine que se reorganiza conforme o estoque muda.
@@ -45,7 +45,7 @@ Voltando ao modelo do Módulo 01 da Semana 02: HTML é estrutura, CSS é apresen
 
 **Se você já tem experiência**, já programou em JavaScript ou outra linguagem antes. Cada módulo tem blocos de aprofundamento, claramente identificados, depois do conteúdo essencial: gerenciamento de estado e um padrão simples de organizar a interface em componentes, sem usar nenhum framework ainda.
 
-Ninguém trabalha em um projeto diferente, todo mundo dá comportamento às mesmas três telas do Buscador de Grupos de Estudo (ou ao projeto real da sua equipe). A profundidade é que muda.
+Ninguém trabalha em um projeto diferente, todo mundo dá comportamento às mesmas três telas do Buscador de Grupos de Estudo (ou ao seu projeto próprio). A profundidade é que muda.
 
 ## // Mapa da Semana 03
 

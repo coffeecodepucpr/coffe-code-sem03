@@ -22,7 +22,7 @@ No seu projeto, o array `gruposMock` (Módulo 11) já **é** o estado do Dashboa
 ## // O ciclo estado → renderização
 
 <div align="center">
-<img src="./assets/svg/state-render-cycle.svg" alt="Ciclo: estado, renderização, tela, e ação da pessoa retroalimentando o estado" width="480">
+<img src="./assets/state-render-cycle.svg" alt="Ciclo: estado, renderização, tela, e ação da pessoa retroalimentando o estado" width="480">
 </div>
 
 > **A REGRA CENTRAL DESTE MÓDULO**
@@ -54,7 +54,7 @@ Repare que `removerGrupo` não toca no DOM em nenhum momento: ele só atualiza o
 > É extrair uma função que sabe construir um pedaço específico e reutilizável da interface, em vez de reescrever a mesma estrutura de HTML em vários lugares do código.
 
 <div align="center">
-<img src="./assets/svg/component-function-pattern.svg" alt="Uma função criarCardHTML reutilizada no Dashboard, no Perfil e na busca filtrada" width="560">
+<img src="./assets/component-function-pattern.svg" alt="Uma função criarCardHTML reutilizada no Dashboard, no Perfil e na busca filtrada" width="560">
 </div>
 
 ```javascript

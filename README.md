@@ -1,47 +1,109 @@
-# SEM 03, Interface Web (Parte 2: Dinâmica)
+# ☕ Coffee & Code — SEM 03 | Interface Web (Parte 2: Dinâmica)
 
-`Coffee & Code // Guia de Estudos`
+```text
+> module: sem-03
+> tema: interface web — dinâmica
+> status: online
+> coffee loaded ✓
+```
 
-Material didático completo da Semana 03 do Coffee & Code: JavaScript ES6+, DOM, Eventos, validação de formulários e consumo de dados JSON, dando comportamento real às três telas construídas em HTML e CSS na Semana 02.
+Material da **Semana 03** da trilha do Coffee & Code, o clube de tecnologia da PUCPR.
 
-## Como usar este material
+Na Semana 02 você construiu as três telas em HTML e CSS. Elas abrem no navegador, se ajustam ao celular — mas não fazem nada. O formulário de Login aceita qualquer coisa, o Dashboard mostra sempre os mesmos cards fixos, o botão de sair de um grupo não sai de lugar nenhum.
 
-Os módulos foram escritos para serem lidos em ordem, do `00` ao `14`. Cada um é autossuficiente: assume que você concluiu a Semana 02, mas não assume nenhum conhecimento prévio de programação.
+A Semana 03 existe para dar comportamento a essas telas: JavaScript ES6+, DOM, eventos, validação de formulários e dados em JSON. No fim da semana a interface reage, valida e renderiza — ainda sem backend, mas com lógica de verdade.
 
-## Módulos
+## Por onde começar
 
-| # | Arquivo | Conteúdo |
+👉 **[docs/00-comece-aqui.md](docs/00-comece-aqui.md)** — leia este primeiro. Ele explica o caminho da semana e o que vem da Semana 02.
+
+Depois, siga os módulos na ordem:
+
+| # | Módulo | Sobre |
 |---|---|---|
-| 00 | [00-comece-aqui.md](./00-comece-aqui.md) | Panorama da semana e o que vem da Semana 02 |
-| 01 | [01-como-o-javascript-entra-na-pagina.md](./01-como-o-javascript-entra-na-pagina.md) | `<script>`, `defer`, console do navegador |
-| 02 | [02-variaveis-tipos-e-operadores.md](./02-variaveis-tipos-e-operadores.md) | `let`/`const`, tipos primitivos, `===` |
-| 03 | [03-decisoes-e-repeticoes.md](./03-decisoes-e-repeticoes.md) | `if/else`, `for`, `while`, `for...of` |
-| 04 | [04-funcoes-e-arrow-functions.md](./04-funcoes-e-arrow-functions.md) | Funções, arrow functions, escopo |
-| 05 | [05-arrays-e-metodos-essenciais.md](./05-arrays-e-metodos-essenciais.md) | `.map()`, `.filter()`, `.find()` |
-| 06 | [06-objetos-e-desestruturacao.md](./06-objetos-e-desestruturacao.md) | Objetos, desestruturação |
-| 07 | [07-o-dom-selecionar-e-ler.md](./07-o-dom-selecionar-e-ler.md) | `querySelector`, `.value`, `.textContent` |
-| 08 | [08-o-dom-criar-e-modificar-elementos.md](./08-o-dom-criar-e-modificar-elementos.md) | `classList`, `createElement`, `innerHTML` |
-| 09 | [09-eventos.md](./09-eventos.md) | `addEventListener`, `event.preventDefault()` |
-| 10 | [10-formularios-e-validacao-em-js.md](./10-formularios-e-validacao-em-js.md) | Validação completa do Login |
-| 11 | [11-json-e-dados-mock.md](./11-json-e-dados-mock.md) | JSON, `JSON.stringify`/`parse`, dados mock |
-| 12 | [12-renderizando-listas-dinamicamente.md](./12-renderizando-listas-dinamicamente.md) | Array de dados → cards na tela |
-| 13 | [13-estado-e-componentizacao.md](./13-estado-e-componentizacao.md) | Estado, ciclo de renderização, componentização |
-| 14 | [14-projeto-guiado.md](./14-projeto-guiado.md) | Construindo as três telas dinâmicas, do início ao fim |
+| 01 | [Como o JavaScript entra na página](docs/01-como-o-javascript-entra-na-pagina.md) | `<script>`, `defer`, console do navegador |
+| 02 | [Variáveis, tipos e operadores](docs/02-variaveis-tipos-e-operadores.md) | `let`/`const`, tipos primitivos, `===` |
+| 03 | [Decisões e repetições](docs/03-decisoes-e-repeticoes.md) | `if/else`, `for`, `while`, `for...of` |
+| 04 | [Funções e arrow functions](docs/04-funcoes-e-arrow-functions.md) | Funções, arrow functions, escopo |
+| 05 | [Arrays e métodos essenciais](docs/05-arrays-e-metodos-essenciais.md) | `.map()`, `.filter()`, `.find()` |
+| 06 | [Objetos e desestruturação](docs/06-objetos-e-desestruturacao.md) | Objetos, desestruturação |
+| 07 | [O DOM: selecionar e ler](docs/07-o-dom-selecionar-e-ler.md) | `querySelector`, `.value`, `.textContent` |
+| 08 | [O DOM: criar e modificar elementos](docs/08-o-dom-criar-e-modificar-elementos.md) | `classList`, `createElement`, `innerHTML` |
+| 09 | [Eventos](docs/09-eventos.md) | `addEventListener`, `event.preventDefault()` |
+| 10 | [Formulários e validação em JS](docs/10-formularios-e-validacao-em-js.md) | Validação completa do Login |
+| 11 | [JSON e dados mock](docs/11-json-e-dados-mock.md) | JSON, `JSON.stringify`/`parse`, dados mock |
+| 12 | [Renderizando listas dinamicamente](docs/12-renderizando-listas-dinamicamente.md) | Array de dados → cards na tela |
+| 13 | [Estado e componentização](docs/13-estado-e-componentizacao.md) | Estado, ciclo de renderização, componentização |
+| 14 | [Projeto guiado](docs/14-projeto-guiado.md) | Construindo as três telas dinâmicas, do início ao fim |
 
-Depois do módulo 14, veja [desafios.md](./desafios.md) (opcional, para aprofundar) e [entregavel.md](./entregavel.md) (checklist final obrigatório).
+E, para consultar quando precisar:
 
-## Diagramas
+- 💻 [Exemplo executável](docs/example/) — as três telas com JavaScript real, para consulta
+- 🎯 [Desafios](docs/desafios.md) — opcionais, para ir além do pedido
+- ✅ [Entregável](docs/entregavel.md) — checklist final antes de fechar a semana
 
-Todos os diagramas usados nos módulos estão em [`assets/svg/`](./assets/svg/), em formato SVG editável.
+## O exemplo executável
 
-## Exemplo executável
+A pasta [`docs/example/`](docs/example/) tem uma implementação de referência das três telas (Login, Dashboard, Perfil), evoluindo o exemplo da Semana 02 com JavaScript real. Baixe o repositório e abra o `index.html` no navegador para navegar entre elas.
 
-A pasta [`example/`](./example/) contém uma implementação de referência das três telas (Login, Dashboard, Perfil), evoluindo o exemplo da Semana 02 com JavaScript real. Serve para consulta, não como gabarito obrigatório.
+É material de **consulta, não gabarito**. O seu projeto tem as suas próprias telas — o exemplo serve para você ver uma solução possível quando travar, não para copiar.
+
+## O entregável
+
+Ao final da Semana 03, o repositório do **seu projeto** (não este aqui) deve ter, além de tudo o que veio das Semanas 01 e 02:
+
+```text
+login.html
+dashboard.html
+perfil.html
+script.js         ← novo (ou um por tela), conectado às páginas com defer
+css/
+└── styles.css
+```
+
+O Login precisa validar de verdade, o Dashboard precisa renderizar e filtrar os cards a partir de dados mock, e o Perfil precisa ter pelo menos uma ação funcionando sem recarregar a página.
+
+O checklist completo está em [docs/entregavel.md](docs/entregavel.md).
+
+> **A lógica correta vale mais que polimento visual.** Uma validação que bloqueia corretamente um e-mail mal formatado, mesmo com uma mensagem simples, vale mais nesta semana do que uma interface bonita que aceita qualquer coisa.
+
+## O que não entra nesta semana
+
+Nada de backend, banco de dados ou chamada de rede real. Nada de framework (React ou equivalente) — tudo em JavaScript puro, de propósito. E os dados mock resetam a cada recarregamento de página: isso é esperado.
 
 ## Projeto contínuo
 
-Todos os módulos usam o mesmo projeto fictício das semanas anteriores: o **Buscador de Grupos de Estudo**. Se sua equipe tem um projeto próprio, o raciocínio de cada módulo se aplica da mesma forma: só troque o nome.
+Todos os módulos usam o mesmo projeto fictício das semanas anteriores: o **Buscador de Grupos de Estudo**. Se você tem um projeto próprio, o raciocínio de cada módulo se aplica da mesma forma — só troque o nome.
+
+## Como funciona
+
+O Coffee & Code é **100% online**. Cada módulo foi escrito para ser autossuficiente: você estuda no seu ritmo, pode avançar mais rápido, voltar em semanas anteriores e consultar o material durante o projeto.
+
+Os encontros semanais, também online, existem para tirar dúvidas, revisar conceitos, programar junto e mostrar o que você produziu — **não para dar aula**:
+
+- 🗓️ **quarta-feira** — 20h00 às 21h30
+- 🗓️ **sábado** — 10h00 às 11h30
+
+Os dois trabalham o mesmo conteúdo. Escolha o que couber melhor na sua semana, e não precisa ficar o horário inteiro na call.
+
+## Travou?
+
+Chega no encontro ou no Discord com uma pergunta específica. `"meu botão renderizado dinamicamente não responde a clique, já tentei X e Y"` costuma ser resolvido muito mais rápido do que `"meu JavaScript não funciona"`.
+
+E lembra: não saber alguma coisa não é problema. Saber pesquisar faz parte da área.
+
+## Diagramas
+
+Todos os diagramas usados nos módulos estão em [`docs/assets/`](docs/assets/), em formato SVG editável.
+
+## Semanas anteriores
+
+- [SEM 01 — Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
+- [SEM 02 — Interface Web (Parte 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
 
 ---
 
-`Material de Estudo // Coffee & Code`
+```text
+HTTP 418 — I'm a teapot
+> ready to code
+```

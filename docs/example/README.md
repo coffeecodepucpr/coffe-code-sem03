@@ -22,7 +22,7 @@ Evolução do exemplo da Semana 02, agora com JavaScript real. As três telas (L
 ## Arquivos
 
 ```
-example/
+docs/example/
 ├── index.html
 ├── login.html
 ├── dashboard.html

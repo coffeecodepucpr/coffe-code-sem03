@@ -11,7 +11,7 @@ Lembra do Módulo 03 (Semana 02): `required` no HTML já impede enviar um campo 
 ## // O fluxo de validação
 
 <div align="center">
-<img src="./assets/svg/validation-flow.svg" alt="Fluxo de validação: capturar valor, limpar, conferir vazio, conferir formato, conferir regra, mostrar retorno" width="560">
+<img src="./assets/validation-flow.svg" alt="Fluxo de validação: capturar valor, limpar, conferir vazio, conferir formato, conferir regra, mostrar retorno" width="560">
 </div>
 
 | Passo | Pergunta |

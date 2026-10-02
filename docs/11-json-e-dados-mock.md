@@ -14,7 +14,7 @@ Os grupos do Dashboard, até agora, moram direto no `script.js`, como um array e
 > É um formato de texto para representar dados, parecido com um objeto ou array do JavaScript, mas é *texto puro*, e por isso pode ser enviado por uma rede, salvo em um arquivo, ou trocado entre linguagens de programação diferentes (JSON não é exclusivo de JavaScript, embora o nome venha de lá: *JavaScript Object Notation*).
 
 <div align="center">
-<img src="./assets/svg/json-vs-js-object.svg" alt="Comparação entre um objeto JavaScript e a representação equivalente em JSON" width="540">
+<img src="./assets/json-vs-js-object.svg" alt="Comparação entre um objeto JavaScript e a representação equivalente em JSON" width="540">
 </div>
 
 ## // JSON × objeto JavaScript: parecidos, mas não iguais

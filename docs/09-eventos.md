@@ -14,7 +14,7 @@ Tudo que você escreveu até agora roda **uma vez**, assim que o script carrega 
 > É algo que acontece na página: um clique, uma tecla pressionada, um formulário enviado, que o JavaScript pode "escutar" e reagir a ele.
 
 <div align="center">
-<img src="./assets/svg/event-listener-flow.svg" alt="Fluxo: elemento selecionado, addEventListener escutando, ação da pessoa, função de callback executando" width="560">
+<img src="./assets/event-listener-flow.svg" alt="Fluxo: elemento selecionado, addEventListener escutando, ação da pessoa, função de callback executando" width="560">
 </div>
 
 ## // `addEventListener`

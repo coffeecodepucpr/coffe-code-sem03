@@ -40,7 +40,7 @@ O caminho, em três passos:
 ## // Do array aos elementos, visualmente
 
 <div align="center">
-<img src="./assets/svg/mock-data-to-render.svg" alt="Array de objetos, com .map(), virando elementos renderizados na tela" width="520">
+<img src="./assets/mock-data-to-render.svg" alt="Array de objetos, com .map(), virando elementos renderizados na tela" width="520">
 </div>
 
 Cada objeto do array, `{ materia: "Cálculo I", participantes: 5 }`, vira, na tela, um card com essas informações. A ordem se mantém: o primeiro item do array é o primeiro card; se o array tiver seis itens, a tela tem seis cards.
