@@ -67,6 +67,10 @@ O checklist completo está em [docs/entregavel.md](docs/entregavel.md).
 
 > **A lógica correta vale mais que polimento visual.** Uma validação que bloqueia corretamente um e-mail mal formatado, mesmo com uma mensagem simples, vale mais nesta semana do que uma interface bonita que aceita qualquer coisa.
 
+## Entregas da turma
+
+Ainda não há entregas da Semana 03. Quer ser a primeira pessoa? Veja [como entregar](entregas/README.md).
+
 ## O que não entra nesta semana
 
 Nada de backend, banco de dados ou chamada de rede real. Nada de framework (React ou equivalente) — tudo em JavaScript puro, de propósito. E os dados mock resetam a cada recarregamento de página: isso é esperado.
